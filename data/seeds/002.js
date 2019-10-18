@@ -7,7 +7,6 @@ exports.seed = function(knex) {
       return knex("country").insert([
         { id: 1, country: "Hong Kong" },
         { id: 2, country: "Ecuador" },
-        { id: 3, country: "Vietnam" },
       ]);
     });
 };
